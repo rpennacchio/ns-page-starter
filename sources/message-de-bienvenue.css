@@ -1,0 +1,17 @@
+/* Message de bienvenue */
+body::before {
+  align-items: center;
+  background: rgb(50 50 150 / .2);
+  border-radius: 5px;
+  content: "Hello World!";
+  display: flex;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.4rem;
+  font-style: italic;
+  justify-content: center;
+  padding: 1rem 1.4rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

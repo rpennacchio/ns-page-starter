@@ -1,0 +1,34 @@
+{
+  "name": "ns-starter",
+  "version": "0.0.1",
+  "description": "Simple HTML page starter",
+  "main": "index.html",
+  "scripts": {
+    "postinstall": "npm run create-project-folders && npm run start",
+    "create-project-folders": "cross-os create-project-folders",
+    "start": "live-server --watch=./sources --open=./sources"
+  },
+  "cross-os": {
+    "create-project-folders": {
+      "darwin": "mkdir -p .no-commit",
+      "linux": "mkdir -p .no-commit",
+      "win32": "if not exist .no-commit mkdir .no-commit"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpennacchio/ns-starter.git"
+  },
+  "author": "Romain Pennacchio",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/rpennacchio/ns-starter/issues"
+  },
+  "homepage": "https://github.com/rpennacchio/ns-starter#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "cross-os": "^1.4.0",
+    "fs-extra": "^9.1.0",
+    "live-server": "^1.2.1"
+  }
+}
