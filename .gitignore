@@ -110,4 +110,5 @@ dist
 *.scss.map
 
 # Custom ignoring files
+.DS_Store
 _no-commit
