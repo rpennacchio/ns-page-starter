@@ -110,4 +110,4 @@ dist
 *.scss.map
 
 # Custom ignoring files
-.no-commit
+_no-commit

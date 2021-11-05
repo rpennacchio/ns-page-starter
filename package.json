@@ -10,9 +10,9 @@
   },
   "cross-os": {
     "create-project-folders": {
-      "darwin": "mkdir -p .no-commit",
-      "linux": "mkdir -p .no-commit",
-      "win32": "if not exist .no-commit mkdir .no-commit"
+      "darwin": "mkdir -p _no-commit",
+      "linux": "mkdir -p _no-commit",
+      "win32": "if not exist _no-commit mkdir _no-commit"
     }
   },
   "repository": {
