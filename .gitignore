@@ -109,6 +109,17 @@ dist
 *.sass.map
 *.scss.map
 
-# Custom ignoring files
-.DS_Store
+# Custom ignoring files & folders
+desktop.ini     # Windows
+.DS_Store       # Mac OS
+.idea/          # JetBrains
+builds/
 _no-commit
+*.afdesign      # Affinity
+*.psd           # Adobe Photoshop
+*.psb           # Adobe Photoshop
+*.ai            # Adobe Illustrator
+*.zip           # Zip
+*.7z            # 7-Zip
+*.save.*
+*.old.*
